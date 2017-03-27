@@ -1,12 +1,12 @@
-# learn-git-dqq
-学习git
+## learn-git-dqq
+# 学习git
 
 创建文件，切换分支，分支合并，提交
 Git 与 github
 
 新建项目文件 在github中新建仓库
 
-登录github 
+登录github
 点击 + New repository
 设置项目名和项目描述等信息，点击create repository
 在命令行中进入本地指定的文件夹（存放位置）
@@ -22,7 +22,7 @@ Git 与 github
 设置一下你的用户名与邮箱，与github上的保持一致即可  【第一次配置时 设置一次即可】
 > git config --global user.name "blues007"
 > git config --global user.email "dq1530370173@163.com"
- 
+
 > git config --global user.name             //查看用户名
 > git config --global user.email           //查看邮箱
 
@@ -42,12 +42,12 @@ Git 与 github
 > git add .                    // 添加修改到暂存区，表示提交所有文件
 > git commit -m "注释"          // 从暂存区提交到本地仓库
 	> git diff                     // 工作区与暂存区的对比
-	> git push origin new1         // 从本地仓库推送到远程服务器，这个过程会在远程仓库新建上面new1分支  
+	> git push origin new1         // 从本地仓库推送到远程服务器，这个过程会在远程仓库新建上面new1分支
 > git pull                     // 每次推送前，需要从远程拉取一次代码 自动合并（多人开发，代码同步）
 > git push origin master       // 往远程仓库提交
 
 
-----无分支----  
+----无分支----
 git add .
 git commit -m "注释"u//pdate"
 git pull
