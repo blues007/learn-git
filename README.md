@@ -17,7 +17,7 @@ Git 与 github
 > mkdir xxxx     // 创建文件夹
 > cd xxxxx       // cd 表示进入某个文件夹
 > cd..           // 表示返回上一级
-> git clone git@github.com:yangbo5207/learn-git.git         // 克隆github的项目
+> git clone git@github.com:blues007/learn-git-dqq.git        // 克隆github的项目
 
 设置一下你的用户名与邮箱，与github上的保持一致即可  【第一次配置时 设置一次即可】
 > git config --global user.name "blues007"
