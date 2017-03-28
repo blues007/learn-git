@@ -1,5 +1,5 @@
 ## learn-git-dqq
-学习git111111
+学习git
 
 创建文件，切换分支，分支合并，提交
 Git 与 github
